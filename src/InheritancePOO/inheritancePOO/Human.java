@@ -1,14 +1,14 @@
-package InheritancePOO;
+package inheritancePOO;
 
-public class Human {
+public abstract class Human {
     private String name;
     private String lastName;
-    private int yearsOld;
+    private int age;
 
-    public Human(String name, String lastName, int yearsOld) {
+    public Human(String name, String lastName, int age) {
         this.name = name;
         this.lastName = lastName;
-        this.yearsOld = yearsOld;
+        this.age = age;
     }
 
     public String getName() {
@@ -19,7 +19,7 @@ public class Human {
         return lastName;
     }
 
-    public int getYearsOld() {
-        return yearsOld;
+    public int getAge() {
+        return age;
     }
 }
