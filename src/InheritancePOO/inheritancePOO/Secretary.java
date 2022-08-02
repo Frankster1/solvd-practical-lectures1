@@ -2,7 +2,7 @@ package inheritancePOO;
 
 import java.util.Scanner;
 
-public final class Secretary extends Human implements Work {
+public final class Secretary extends Human implements IWork {
     public int yearsOfExperience;
     public double costPerHour;
 

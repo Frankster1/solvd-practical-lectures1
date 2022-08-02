@@ -2,7 +2,7 @@ package inheritancePOO;
 
 import java.util.Scanner;
 
-public final class CriminalLawyer extends Lawyer implements Work {
+public final class CriminalLawyer extends Lawyer implements IWork {
 
     Scanner sc = new Scanner(System.in);
 
